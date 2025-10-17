@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon/icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/icon2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/icon3.png">
+</head>
+<body>
+    <!-- Header con el logotipo centrado -->
+    <header>
+        <div class="logo">
+            <img src="IMAGEN.png" alt="Logo de la Empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('inicio')">Inicio</a></li>
+                <li><a href="#" onclick="showSection('sobre-nosotros')">Sobre Nosotros</a></li>
+                <li><a href="#" onclick="showSection('servicios')">Servicios</a></li>
+                <li><a href="#" onclick="showSection('clientes')">Clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Secciones del contenido -->
+    <main>
+        <!-- Sección de Inicio con presentación de imágenes -->
+        <section id="inicio" class="section active">
+            <div class="image-fade-container">
+                <img src="carrusel/imagen.jpg" alt="Imagen 1" class="fade-image active">
+                <img src="carrusel/imagen2.jpg" alt="Imagen 2" class="fade-image">
+                <img src="carrusel/imagen3.jpg" alt="Imagen 3" class="fade-image">
+            </div>
+            <h1>Fabricación de Piezas en Poliuretano:<br> Soluciones Personalizadas para sus Necesidades
+            </h1>
+            <p>En Bonroler, nos especializamos en la fabricación de piezas en poliuretano de alta calidad. Nuestro equipo de expertos utiliza las últimas tecnologías y 
+                técnicas para crear soluciones personalizadas que se adapten a las necesidades específicas de nuestros clientes.</p>
+        </section>
+
+        <!-- Sección Sobre Nosotros -->
+         <section id="sobre-nosotros" class="section">
+            <div class="about-item" id="Nosotros">
+                <div class="text">
+                    <h4>¿Quienes somos?</h4>
+                    <p>Somos una empresa dedicada al moldeado de refacciones industriales con equipos de scanner 3D y
+                        terminación de pieza final en poliuretano de alta ingeniería, resinas epoxicas, fibra de carbono entre otras
+                        materias primas. Dedicados a las exigencias de nuestros clientes estando a la vanguardia y a la mejora
+                        continua para dar un excelente servicio. Ubicandonos en el mercado Nacional e internacional por la calidad
+                        de nuestras piezas.</p>
+                </div>       
+            </div>
+            <div class="about-item" id="mission">
+                <div class="text">
+                    <h3>Misión</h3>
+                    <p>Proveer soluciones innovadoras y sostenibles que mejoren la vida de las personas y fomenten el desarrollo.</p>
+                </div>
+                <div class="image">
+                    <img src="sobre nosotros/mision.jpg" alt="Misión">
+                </div>
+            </div>
+
+            <div class="about-item" id="vision">
+                <div class="text">
+                    <h3>Visión</h3>
+                    <p>Ser líderes en nuestro sector, reconocidos por nuestra ética, calidad y compromiso con la sociedad y el medio ambiente.</p>
+                </div>
+                <div class="image">
+                    <img src="sobre nosotros/vision.jpg" alt="Visión">
+                </div>
+            </div>
+
+            <div class="about-item" id="values">
+                <div class="text">
+                    <h3>Valores</h3>
+                    <p>Innovación, integridad, compromiso, trabajo en equipo y respeto por las personas y el planeta.</p>
+                </div>
+                <div class="image">
+                    <img src="sobre nosotros/valores.jpg" alt="Valores">
+                </div>
+            </div>
+         </section>
+
+       <!-- Sección Servicios -->
+<section id="servicios" class="section">
+    <h1>¿Por qué elegirnos?</h1>
+    <p>Ofrecemos una amplia gama de servicios adaptados a tus necesidades. Somos una empresa con mas de 12 años de experiencia formada por un equipo
+        de trabajo dispuestos cada uno en cuidar el mínimo detalle para que la pieza final
+        sea lo mas perfecta posible y sobre todo la calidad de nuestros productos resaltan
+        para un mayor desempeño.</p>
+
+    <div class="service-item about-item">
+        <div class="text">
+            <h3>Moldeados 3D</h3>
+            <p>Fabricación de cualquier pieza
+                industrial con excelentes materiales
+                de alta ingeniería
+                .</p>
+        </div>
+        <div class="image">
+            <img src="nuestros servicios/imagen6.jpg" alt="Diseño y Prototipado">
+        </div>
+    </div>
+
+    <div class="service-item about-item">
+        <div class="text">
+            <h3>Fabricación</h3>
+            <p>Utilizamos técnicas de fabricación avanzadas, como la inyección de poliuretano, para crear piezas de alta calidad.</p>
+        </div>
+        <div class="image">
+            <img src="nuestros servicios/imagen4.jpg" alt="Fabricación">
+        </div>
+    </div>
+
+    <div class="service-item about-item">
+        <div class="text">
+            <h3>Fabricación de
+                resortes o tablillas.
+                </h3>
+            <p>En fibra de carbono<br>
+                Calorón<br>
+                G-10.
+                </p>
+        </div>
+    </div>
+
+    <div class="service-item about-item">
+        <div class="text">
+            <h3>Vulcanizado de Rodillos y Llantas</h3>
+            <p>El vulcanizado es un proceso químico para convertir el caucho o polímeros similares en materiales más duraderos mediante la adición de azufre o aceleradores de vulcanización. Este proceso mejora la elasticidad, la resistencia a la abrasión y la durabilidad del material. En el caso de rodillos y llantas, el vulcanizado asegura que estos componentes tengan una vida útil más larga y puedan soportar condiciones de uso exigentes.</p>
+        </div>
+        <div class="image">
+            <img src="nuestros servicios/imagen7.png" alt="Pruebas e Inspección">
+        </div>
+    </div>
+
+    <h2>Ventajas</h2>
+
+    <div class="service-item about-item">
+        <div class="text">
+            <h3>Flexibilidad</h3>
+            <p>El poliuretano es un material versátil que se puede moldear en una variedad de formas y tamaños.</p>
+        </div>
+    </div>
+
+    <div class="service-item about-item">
+        <div class="text">
+            <h3>Resistencia</h3>
+            <p>El poliuretano es resistente a la abrasión, la corrosión y los productos químicos.</p>
+        </div>
+    </div>
+
+    <div class="service-item about-item">
+        <div class="text">
+            <h3>Ligereza</h3>
+            <p>El poliuretano es un material ligero que puede reducir el peso de sus productos.</p>
+        </div>
+    </div>
+
+    <div class="service-item about-item">
+        <div class="text">
+            <h3>Costo-efectividad</h3>
+            <p>La fabricación de piezas en poliuretano puede ser más rentable que otros materiales.</p>
+        </div>
+        <div class="image">
+            <img src="nuestros servicios/imagen5.jpg" alt="Costo-efectividad">
+        </div>
+    </div>
+</section>
+
+       <!-- Sección Contacto -->
+<section id="clientes" class="section">
+    <h1>Nuestros Clientes</h1>
+    <div class="client-logos">
+        <div class="client-item">
+            <img src="Nuestros Clientes/imagen8.png"Logo Cliente 1">
+        </div>
+        <div class="client-item">
+            <img src="Nuestros Clientes/imagen9.png" alt="Logo Cliente 2">
+        </div>
+        <div class="client-item">
+            <img src="Nuestros Clientes/imagen10.png" alt="Logo Cliente 3">
+        </div>
+        <div class="client-item">
+            <img src="Nuestros Clientes/imagen11.png" alt="Logo Cliente 4">
+        </div>
+        <div class="client-item">
+            <img src="Nuestros Clientes/imagen12.png" alt="Logo Cliente 4">
+        </div>
+        <div class="client-item">
+            <img src="Nuestros Clientes/imagen13.png" alt="Logo Cliente 4">
+        </div>
+    </div>
+</section>
+
+    </main>
+    <footer>
+        <p><strong>Contacto:</strong> <a href="mailto:bonroler@hotmail.com">bonroler@hotmail.com</a>| Teléfono: 6682274969 </p>
+        <p>Av. Libertad #1104 Fracc., Jardines de Fátima c.p. 81226</p>
+        <p>&copy; 2024 BONROLER S.A.</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/recbon" target="_blank">
+                <img src="SOCIALES\fb.png" alt="facebook">
+                
+            </a>
+            <a href="https://wa.me/526682274969 " target="_blank">
+                <img src="SOCIALES\wh.png" alt="whatsapp">
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
